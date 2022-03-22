@@ -27,7 +27,7 @@ def get_account(index=None, id=None):
                                                                                                                                                                                                                                                                                                                                                                                         
 
 contract_to_mock = {"eth_usd_price_feed": MockV3Aggregator,
-                    "vrf_coordinator": VRFCoordinatorMock,
+                    "vfr_coordinator": VRFCoordinatorMock,
                     "link_token": LinkToken}
 
 

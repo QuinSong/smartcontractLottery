@@ -1,5 +1,5 @@
 from brownie import Lottery, network, config
-from helpful_scripts import get_account, get_contract
+from scripts.helpful_scripts import get_account, get_contract
 
 
 def deploy_lottery():
@@ -18,5 +18,3 @@ def deploy_lottery():
 
 def main():
     deploy_lottery()
-
-
